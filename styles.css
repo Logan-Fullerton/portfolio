@@ -25,7 +25,6 @@ header{
     font-family: var(--fontfam);
     color:var(--light);
     text-align: center;
-    position: relative;
     top:35px;
 }
 .header ul{ text-align: right;}
