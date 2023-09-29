@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<!--GIVEN I need to sample a potential employee's previous work
+WHEN I load their portfolio
+THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
+WHEN I click one of the links in the navigation
+THEN the UI scrolls to the corresponding section
+WHEN I click on the link to the section about their work
+THEN the UI scrolls to a section with titled images of the developer's applications
+WHEN I am presented with the developer's first application
+THEN that application's image should be larger in size than the others
+WHEN I click on the images of the applications
+THEN I am taken to that deployed application
+WHEN I resize the page or view the site on various screens and devices
+THEN I am presented with a responsive layout that adapts to my viewport-->
+<body>
+    <header class="header">
+        <h1>
+            Logan Fullerton
+        </h1>
+        <p id="sub-header">My Portfolio</p>
+        <div>
+            <ul class="links" id="links">
+                <li>
+                    <a href="#my-projects">My Projects
+                    </a>
+                </li>
+                <li>
+                    <a href="#about-me">About Me     
+                    </a>
+                </li>
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+
+            </ul>
+        </div>
+       
+    </header>
+    <div class="content">
+        <section>
+            <h2 class='about-me' id='about-me'>About ME</h2>
+            <img id="picture-of-me" src="IMG_1469.jpg" alt="picture-of-me" width="150px" hieght="175px">
+            <p class= "paragraph-about-me" id="paragraph-about-me"> something about me something about me something about me something about me somoething
+                something about me something about me something about me something about me something about me something about me something about me somoething
+                something about me something about me something about me something about me something about me something about me something about me somoething
+                something about me something about me something about me something about me something about me something about me something about me somoething
+                something about me something about me something about me
+            </p>
+        </section>
+        
+    </div>
+    <div>
+    <h3 id="my-projects">My Projects</h3>
+    </div>
+    <main>
+        
+        <section id="first-project" class="projects">
+            <p>My First Project</p>
+            <a id="photo-1" href="https://logan-fullerton.github.io/Module-1-challenge/" target="_blank" alt="picture of my first project"><img src="Screenshot (3).png" height="400px"></a> 
+                <p>My first challenge was to debug this webpage and make corrections to the semantics of the html</p>
+        </section>
+        <section id="second-project" class="projects">
+            <p>Project 2</p>
+            <img src="pngtree-gray-network-placeholder-png-image_3416659.jpg">
+            <p>Describe second project</p>
+        </section>
+        <section  id="third-project" class="projects">
+            <p>Project 3</p>
+            <img src="pngtree-gray-network-placeholder-png-image_3416659.jpg">
+            <p>describe project 3</p>
+        </section>
+        <section  id="fourth-project" class="projects">
+            <p>project 4</p>
+            <img src="pngtree-gray-network-placeholder-png-image_3416659.jpg">
+            <p>Describe project 4</p>
+        </section>
+        <section  id="fifth-project" class="projects">
+            <p>project 4</p>
+            <img src="pngtree-gray-network-placeholder-png-image_3416659.jpg">
+            <p>Describe project 5</p>
+            </section>
+    </main>
+    <footer class="contact" id="contact"> 
+        <h4>Contact</h4>
+        <p id="email">fullertonlogan@gmail.com</p>
+        <a href="https://github.com/Logan-Fullerton/portfolio" target="_blank">My Github</a>
+
+    
+    </footer>
+          
+
+        
+
+
+
+
+    
+    
+
+
+</body>
+</html>
